@@ -1,0 +1,54 @@
+body {
+    background-color:powderblue;
+}
+
+header, footer {
+    background-color: red;
+    color: yellow;
+    padding: 1cm;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    clear: left;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 2px;
+}
+.wrapper {
+    display: flex;
+}
+
+.wrapper >div {
+    flex: 1;
+    text-align: center;
+}
+
+section {
+    float: left;
+    width: 65%;
+    color: blue;
+    height: 230px;
+    padding: 1em;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    color: blue;
+    height: 430px;
+    padding: 1em;
+}
+
+article {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: blue;
+    height: 230px;
+}
+
+h1 {
+    color:red;
+}
