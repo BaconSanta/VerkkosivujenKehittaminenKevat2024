@@ -2,21 +2,40 @@ body {
     background-color: white;
 }
 
-header {
+header, footer {
     text-align: center;
     background-color: black;
     color: white;
 }
 
+footer {
+    clear:both;
+}
+
+.noBullets {
+    list-style-type: none;
+}
 
 .marginless {
     margin: 0;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 nav {
     text-align: center;
     background-color: darkgray;
     color: white;
+}
+
+.mainnav a:hover {
+    color: red;
 }
 
 .vert {
@@ -26,6 +45,8 @@ nav {
     height: 600px;
     text-align: left;
 }
+
+
 section {
     float: left;
     width: 45%;
