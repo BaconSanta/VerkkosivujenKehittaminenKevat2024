@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+}
+
+header, footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    clear:both;
+}
+
+.noBullets {
+    list-style-type: none;
+}
+
+.marginless {
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+nav {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+}
+
+.mainnav a:hover {
+    color: red;
+}
+
+.vert {
+    float: left;
+    background-color: lightgray;
+    width: 10%;
+    height: 600px;
+    text-align: left;
+}
+
+
+section {
+    float: left;
+    width: 45%;
+    padding: 2em;
+    height: 250px;
+}
+
+article {
+    float: left;
+    width: 45%;
+    padding: 2em;
+    height: 250px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    height: 500px;
+    padding: 2em;
+}
+/*
+#header {
+    background-color:black;
+    color: white;
+}
+This is a remnant of when I tried to use divs, changed to not using them
+because not even the course material does.
+*/
